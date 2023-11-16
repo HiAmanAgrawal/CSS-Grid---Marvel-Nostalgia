@@ -1,12 +1,13 @@
 body{
     height: 100vh;
     width: 100vw;
+    text-align: center;
 }
 #grid-container {
     display: grid;
     grid-template-columns: repeat(7, auto);
     grid-template-rows: repeat(7, 30vh);
-    gap: 10px;
+    gap: 5px;
   }
 .image{
     height: 30vh;
@@ -39,5 +40,5 @@ body{
     width: 100%;
 }
 .duo{
-
+    
 }
